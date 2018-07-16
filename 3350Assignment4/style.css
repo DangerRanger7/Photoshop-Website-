@@ -1,0 +1,142 @@
+@charset "utf-8";
+.row .navbar-default {
+	background-color: #FF0080;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,0,128,1.00) 0%,rgba(255,255,0,1.00) 80.31%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,0,128,1.00) 0%,rgba(255,255,0,1.00) 80.31%);
+	background-image: -o-linear-gradient(270deg,rgba(255,0,128,1.00) 0%,rgba(255,255,0,1.00) 80.31%);
+	background-image: linear-gradient(180deg,rgba(255,0,128,1.00) 0%,rgba(255,255,0,1.00) 80.31%);
+	color: #FFF9F9;
+}
+.row .nav.navbar-nav > li > a{
+	border-top: solid 1px #FF6BB4;
+	border-right: solid 1px #FF0047;
+	border-bottom: solid 1px #FF0047;
+	border-left: solid 1px #FF6BB4;
+	color: #FFFFFF; 
+	
+}
+/*.row .nav.navbar-nav>li>a:link, .row .nav.navbar-nav>li>a:visited{
+	border-top: solid 1px #FF6BB4;
+	border-right: solid 1px #FF0047;
+	border-bottom: solid 1px #FF0047;
+	border-left: solid 1px #FF6BB4;
+	color: #FFF9F9;
+	
+}*/
+/*ACTIVE LINK****************/
+/*.row .nav.navbar-nav>li.active {
+	/*border-top: solid 1px #FF6BB4;
+	border-right: solid 1px #FF0047;
+	border-bottom: solid 1px #FF0047;
+	border-left: solid 1px #FF6BB4;*/
+	/*color: white;
+	background-color:#C70039;
+}*/
+
+.row .nav.navbar-nav>li>a:hover{
+	color: #FFFFFF;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,0,1.00) 0%,rgba(255,0,128,1.00) 97.42%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,0,1.00) 0%,rgba(255,0,128,1.00) 97.42%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,0,1.00) 0%,rgba(255,0,128,1.00) 97.42%);
+	background-image: linear-gradient(180deg,rgba(255,255,0,1.00) 0%,rgba(255,0,128,1.00) 97.42%);
+	}
+
+.row .nav.navbar-nav {
+	width: 715px;
+	margin: 0px auto;
+	float: none;
+}
+.row .navbar {
+	margin-bottom: 0px;
+}
+header.row h2 {
+	color: #FF0080;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 350%;
+	text-align: center;
+	text-shadow: 0px 5px 5px rgba(0,0,0,0.40);
+	text-decoration: none;
+	background-color: #E5FF00;
+	font-style: normal;
+	font-weight: bolder;
+	background-image: url(images/fern.JPG);
+}
+.logowhite{
+	color: #000000;
+	
+}
+header.row p {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0px 3px 5px rgba(0,0,0,0.50);
+	letter-spacing: 0.5em;
+	color: #FFFFFF;
+}
+
+header.row {
+	padding: 20px 0px;
+	background-repeat: repeat-x,repeat-x;
+	background-color: #FF0080;
+	border: thick solid #E8FF00;
+	background-position: 47% center;
+	background-size: contain;
+	background-clip: border-box;
+	background-image: url(images/pineapple2.jpg);
+}
+main.row aside blockquote {
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	
+}
+main.row aside blockquote p {
+	padding: 0px 0.5em;
+	margin: 0px 0px 5px 0px;
+	text-indent: -1em;
+}
+main.row aside blockquote cite {
+	padding: 0px 10px;
+	display: block;
+	font-style: italic;
+	text-align: right;
+}
+main.row aside {
+	border-top: solid 5px #FFFF00;
+	margin: 1em 0px;
+	padding: 1em 0px;
+	border-bottom: solid 3px #FFFF00;
+}
+
+.sidebar2{
+	padding: 0px 10px;
+	background-color: #FDFDD5;
+}
+.sidebar2 h2 {
+	margin-top: 10px;
+	padding: 0px 10px;
+	margin-bottom: 5px;
+	font-size: 130%;
+	line-height: 1.4em;
+}
+.sidebar2 p {
+	padding: 0px 10px;
+	margin-bottom: 5px;
+	line-height: 1.3em;
+}
+footer {
+	padding: 1em 0px;
+	background-color: #090;
+	color: #FFFFFF;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,0,1.00) 7.77%,rgba(255,255,0,1.00) 10.36%,rgba(255,0,128,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,0,1.00) 7.77%,rgba(255,255,0,1.00) 10.36%,rgba(255,0,128,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,0,1.00) 7.77%,rgba(255,255,0,1.00) 10.36%,rgba(255,0,128,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,0,1.00) 7.77%,rgba(255,255,0,1.00) 10.36%,rgba(255,0,128,1.00) 100%);
+	text-align: center;
+}
+img{
+	padding-bottom: 30px; 
+}
+.nav.navbar-nav .active a {
+	color: white;
+	background-color:#C70039;
+}
